@@ -1,0 +1,55 @@
+body {
+  background: #aaffff ;
+}
+
+p{
+  line-height: 5px;
+}
+div {
+
+  max-width :600px;
+  text-align:center;
+  margin:auto;
+}
+
+
+
+
+
+#list_header{
+  text-align: left;
+  margin-left: 50px;
+  margin-top:-50px;
+  display:inline-block;
+  border: 1px solid #aaeeff;
+  border-radius: 10px;
+}
+.form{
+  border:2px solid #aaeeff;
+  display:inline-block;
+  align-self: left;
+  max-width: 800px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 10px
+}
+.form_header{
+  display:inline-block;
+  align-self: center;
+}
+.form_element{
+  align-self: center;
+}
+.orders {
+  position: relative;
+
+  margin:5px 600px 5px 10px;
+  max-width: 400px;
+  border:1px solid #aaeeff;
+}
+.header{
+  font-family: "Lucida Console", Monaco, monospace;
+  position:relative;
+  margin-right:10px;
+  border:10px solid blue;
+}

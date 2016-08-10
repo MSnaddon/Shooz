@@ -1,0 +1,14 @@
+<div id="list_header">
+<h3>List of orders</h3>
+</div>
+
+<div class="orders">
+<% @orders.each do |order| %>
+  <p>Name: <%= "#{order.full_name}" %></p>
+  <p>Address: <%= "#{order.address}" %></p>
+  <p>Order: <%= "#{order.quantity} x #{order.shoe_type} Size #{order.size}"  %> </p>
+  <hr>
+
+<% end %>
+</div>
+
